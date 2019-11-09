@@ -1,6 +1,8 @@
 1。nfc没法用(修了)（仅使用android beam进行了测试）(刷了一次官方rom后又挂了)（计划使用原固件里的hal加Android的上层，或者使用8.1的hal进行编译）
+(最后使用的是https://github.com/LineageOS/android_device_sony_shinano-common中的处理办法（也就是用8。1hal)
 2。插着电的时候重启好像不管用。
 3。selinux规则目前似乎没法启用，需要进行修改
 4.开启夜间模式后界面会变卡（下拉状态栏体现最明显）。(由于不支持hwc2，关掉了这个 功能)
 5。fm收音机无法使用。（修了）
-6.图形性能比官方差（几何天气）（好像是hwui的skia模式问题，在本来没问题的lineageos15.1开发者模式换成skia后出现了同样问题）(目前安卓9还可以通过系统设置换回原ooengl，但似乎安卓10把opengl删了，只剩skiagl）
+6.图形性能比官方差（几何天气）（好像是hwui的skia模式问题，在本来没问题的lineageos15.1开发者模式换成skia后出现了同样问题）(目前安卓9还可以通过系统设置换回原ooengl，但似乎安卓10把opengl删了，只剩skiagl，希望安卓10上skiagl没这性能问题）
+7。按home建无法亮屏。
