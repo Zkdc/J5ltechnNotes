@@ -1,0 +1,731 @@
+{
+    "#META=": {
+        "versionName": "2.0-20",
+        "versionCode": 20,
+        "timestamp": "2020-06-19T14:44:48Z"
+    },
+    "#ARCH=": {
+        "uname-m": "ERROR: Error running exec(). Command: [uname, -m] Working Directory: null Environment: null",
+        "armv7l": {
+            "SUPPORTED_ABIS": [
+                "armeabi-v7a",
+                "armeabi"
+            ],
+            "SUPPORTED_32_BIT_ABIS": [
+                "armeabi-v7a",
+                "armeabi"
+            ],
+            "SUPPORTED_64_BIT_ABIS": [],
+            "BinderArmProtocol": "v7"
+        }
+    },
+    "#DRM=": {
+        "drm.service.enabled": "",
+        "modular": {
+            "widevine": {
+                "properties": {
+                    "vendor": "Google",
+                    "version": "1.0",
+                    "description": "Widevine CDM",
+                    "algorithms": "AES/CBC/NoPadding,HmacSHA256",
+                    "securityLevel": "L1",
+                    "systemId": "6205",
+                    "privacyMode": "disable",
+                    "sessionSharing": "disable",
+                    "usageReportingSupport": "True",
+                    "appId": "<unknown>",
+                    "origin": "<unknown>",
+                    "hdcpLevel": "Disconnected",
+                    "maxHdcpLevel": "HDCP-2.2",
+                    "maxNumberOfSessions": "<unknown>",
+                    "numberOfOpenSessions": "<unknown>"
+                },
+                "events": [
+                    {
+                        "event": 1,
+                        "extra": 0
+                    },
+                    {
+                        "Exception(openSession)": "android.media.NotProvisionedException: Failed to open session"
+                    }
+                ]
+            }
+        },
+        "classic": {
+            "engines": [
+                "Widevine DRM plug-in",
+                "OMA V1 Forward Lock"
+            ],
+            "widevine": {
+                "version": "Version 4.5.0.10128 AES 601_AndroidOS_L  ",
+                "status": "HD_SD"
+            }
+        }
+    },
+    "#ANDROID": {
+        "RELEASE": "5.1",
+        "KERNEL": "3.10.49-1224079",
+        "SDK_INT": 22,
+        "TAGS": "release-keys",
+        "systemName": "root",
+        "osName": "Linux",
+        "JAVA": "The Android Project",
+        "JAVA_url": "http://www.android.com/",
+        "JAVA_vm_version": "2.1.0",
+        "JAVA_home": "/system",
+        "JAVA_path": ".",
+        "JAVA_version": "0",
+        "JAVA_runtime": "0.9",
+        "ro.build.flavor": "j5ltezm-user",
+        "ro.build.characteristics": "china_wlan",
+        "ro.crypto.type": "",
+        "dpmStorageEncryption": "INACTIVE",
+        "ro.build.system_root_image": "",
+        "/Vendor": " /vendor                   1.6G     1.5G   138.7M   4096",
+        "/System": " /system                   1.6G     1.5G   138.7M   4096"
+    },
+    "#SYSTEM=": {
+        "Cpu": "Qualcomm Technologies, Inc MSM8916",
+        "BOARD": "msm8916",
+        "HARDWARE": "qcom",
+        "nbrCamsAPI1": 2,
+        "CamVendorHAL3": "null(<java.lang.reflect.InvocationTargetException>)",
+        "CamVendorAux": "",
+        "CamAux": "",
+        "KernelFull": "ERROR: Error running exec(). Command: [uname, -a] Working Directory: null Environment: null",
+        "CODENAME": "REL",
+        "BOOTLOADER": "J5008ZMS1ARG1",
+        "ro.boot.bootdevice": "7824900.sdhci",
+        "BRAND": "samsung",
+        "MODEL": "SM-J5008",
+        "MANUFACTURER": "samsung",
+        "DEVICE": "j5ltechn",
+        "ID": "LMY47O",
+        "HOST": "21HH1F22",
+        "PRODUCT": "j5ltezm",
+        "TYPE": "user",
+        "USER": "dpi",
+        "DISPLAY": "LMY47O.J5008ZMS1ARG1",
+        "INCREMENTAL": "J5008ZMS1ARG1",
+        "RadioVersion": "J5008ZMS1ARG1",
+        "FINGERPRINT": "samsung/j5ltezm/j5ltechn:5.1/LMY47O/J5008ZMS1ARG1:user/release-keys",
+        "FINGERPRINTvendor": "",
+        "sku": "",
+        "ro.boot.flash.locked": "",
+        "ro.boot.verifiedbootstate": "",
+        "ro.boot.veritymode": "",
+        "ro.boot.dynamic_partitions": "",
+        "ro.boot.dynamic_partitions_retrofit": "null(<java.lang.reflect.InvocationTargetException>)",
+        "ro.boot.avb_version": "",
+        "ro.boot.super_partition": "",
+        "ro.boot.slot_suffix": "",
+        "glEsVersion": "3.0",
+        "reqGlEsVersion": "196608"
+    },
+    "#DISPLAY=": {
+        "内置屏幕": {
+            "Name": "内置屏幕",
+            "State": "ON",
+            "ro.sf.lcd_density": "320",
+            "RefreshRate": 60,
+            "ScreenSpecs": "720 x 1280",
+            "ViewingMetrics": "DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=294.967, ydpi=306.716}",
+            "AllMetrics": "720 x 1280, largest app 1280 x 1232, smallest app 720 x 672, 60.0 fps, supportedRefreshRates [60.0], rotation 0, density 320 (294.967 x 306.716) dpi, layerStack 0, appVsyncOff 0, presDeadline 17666667, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}",
+            "RefreshRates21": "60.0"
+        }
+    },
+    "#MEDIA=": {
+        "decoders": {
+            "OMX.google.aac.decoder": "~audio/mp4a-latm",
+            "OMX.google.amrnb.decoder": "~audio/3gpp",
+            "OMX.google.amrwb.decoder": "~audio/amr-wb",
+            "OMX.google.g711.alaw.decoder": "~audio/g711-alaw",
+            "OMX.google.g711.mlaw.decoder": "~audio/g711-mlaw",
+            "OMX.google.gsm.decoder": "~audio/gsm",
+            "OMX.google.h263.decoder": "~video/3gpp",
+            "OMX.google.h264.decoder": "~video/avc",
+            "OMX.google.hevc.decoder": "~video/hevc",
+            "OMX.google.mp3.decoder": "~audio/mpeg",
+            "OMX.google.mpeg4.decoder": "~video/mp4v-es",
+            "OMX.google.opus.decoder": "~audio/opus",
+            "OMX.google.raw.decoder": "~audio/raw",
+            "OMX.google.vorbis.decoder": "~audio/vorbis",
+            "OMX.google.vp8.decoder": "~video/x-vnd.on2.vp8",
+            "OMX.google.vp9.decoder": "~video/x-vnd.on2.vp9",
+            "OMX.qcom.audio.decoder.evrc": "~audio/evrc",
+            "OMX.qcom.audio.decoder.Qcelp13": "~audio/qcelp",
+            "OMX.qcom.video.decoder.avc": "~video/avc",
+            "OMX.qcom.video.decoder.avc.secure": "~video/avc",
+            "OMX.qcom.video.decoder.h263": "~video/3gpp",
+            "OMX.qcom.video.decoder.mpeg4": "~video/mp4v-es",
+            "OMX.qcom.video.decoder.vp8": "~video/x-vnd.on2.vp8",
+            "OMX.SEC.aac.dec": "~audio/mp4a-latm",
+            "OMX.SEC.adpcm.dec": "~audio/x-ima",
+            "OMX.SEC.amr.dec": "~audio/3gpp~audio/amr-wb",
+            "OMX.SEC.avc.sw.dec": "~video/avc",
+            "OMX.SEC.flac.dec": "~audio/flac",
+            "OMX.SEC.h263.sw.dec": "~video/3gpp",
+            "OMX.SEC.hevc.sw.dec": "~video/hevc",
+            "OMX.SEC.mp3.dec": "~audio/mpeg~audio/mpeg-L1~audio/mpeg-L2",
+            "OMX.SEC.mpeg4.sw.dec": "~video/mp4v-es",
+            "OMX.SEC.vp8.dec": "~video/x-vnd.on2.vp8"
+        },
+        "encoders": {
+            "OMX.google.aac.encoder": "~audio/mp4a-latm",
+            "OMX.google.amrnb.encoder": "~audio/3gpp",
+            "OMX.google.amrwb.encoder": "~audio/amr-wb",
+            "OMX.google.flac.encoder": "~audio/flac",
+            "OMX.google.h263.encoder": "~video/3gpp",
+            "OMX.google.h264.encoder": "~video/avc",
+            "OMX.google.mpeg4.encoder": "~video/mp4v-es",
+            "OMX.google.vp8.encoder": "~video/x-vnd.on2.vp8",
+            "OMX.qcom.audio.encoder.evrc": "~audio/evrc",
+            "OMX.qcom.audio.encoder.qcelp13": "~audio/qcelp",
+            "OMX.qcom.video.encoder.avc": "~video/avc",
+            "OMX.qcom.video.encoder.h263": "~video/3gpp",
+            "OMX.qcom.video.encoder.mpeg4": "~video/mp4v-es",
+            "OMX.qcom.video.encoder.vp8": "~video/x-vnd.on2.vp8"
+        }
+    },
+    "#SECURITY=": {
+        "AndroidKeyStore": {
+            "Info": "Android KeyStore security provider",
+            "Version": "1.0",
+            "Class": "android.security.AndroidKeyStoreProvider"
+        },
+        "AndroidOpenSSL": {
+            "Info": "Android's OpenSSL-backed security provider",
+            "Version": "1.0",
+            "Class": "com.android.org.conscrypt.OpenSSLProvider"
+        },
+        "BC": {
+            "Info": "BouncyCastle Security Provider v1.50",
+            "Version": "1.5",
+            "Class": "com.android.org.bouncycastle.jce.provider.BouncyCastleProvider"
+        },
+        "Crypto": {
+            "Info": "HARMONY (SHA1 digest; SecureRandom; SHA1withDSA signature)",
+            "Version": "1.0",
+            "Class": "org.apache.harmony.security.provider.crypto.CryptoProvider"
+        },
+        "HarmonyJSSE": {
+            "Info": "Harmony JSSE Provider",
+            "Version": "1.0",
+            "Class": "com.android.org.conscrypt.JSSEProvider"
+        },
+        "SRP": {
+            "Info": "Samsung PKIX provider with mandatory certificate revocation check",
+            "Version": "1.0",
+            "Class": "com.sec.android.security.pkix.PKIXProvider"
+        },
+        "TimaKeyStore": {
+            "Info": "TIMA KeyStore security provider",
+            "Version": "1.0",
+            "Class": "com.sec.tima.TimaKeyStoreProvider"
+        }
+    },
+    "#LOCATION&microG=": {
+        "detectionLocation": {
+            "/system/priv-app/NSFusedLocation/NSFusedLocation.apk": "installed",
+            "/system/priv-app/NetworkLocation_Autonavi/NetworkLocation_Autonavi.apk": "installed"
+        },
+        "providers": {
+            "com.amap.android.location": "installed",
+            "com.sec.location.nsflp": "installed"
+        },
+        "_enableNetworkLocationOverlay": true,
+        "_networkLocationProviderPackageName": "com.amap.android.location",
+        "_enableFusedLocationOverlay": true,
+        "_fusedLocationProviderPackageName": "com.android.location.fused",
+        "_enableHardwareFlpOverlay": true,
+        "_hardwareFlpPackageName": "com.android.location.fused",
+        "_enableGeocoderOverlay": true,
+        "_geocoderProviderPackageName": "com.amap.android.location",
+        "_enableGeofenceOverlay": true,
+        "_geofenceProviderPackageName": "@0    ",
+        "microG_permlab_fakePackageSignature": "V0ID",
+        "OMNIROM_whitelistDetected:": "null(<java.lang.reflect.InvocationTargetException>)"
+    },
+    "#CAMERA=": {
+        "0/2Back": {
+            "ae-bracket-hdr-values": "Off,AE-Bracket",
+            "ae-bracket-hdr": "Off",
+            "anti-shake": "0",
+            "antibanding-values": "off,60hz,50hz,auto",
+            "antibanding": "50hz",
+            "auto-exposure-lock-supported": "true",
+            "auto-exposure-lock": "false",
+            "auto-exposure-values": "matrix,center,spot",
+            "auto-whitebalance-lock-supported": "true",
+            "auto-whitebalance-lock": "false",
+            "brightness-step": "1",
+            "camera-mode": "0",
+            "constant-growth-rate-zoom-supported": "true",
+            "contrast-step": "1",
+            "contrast": "5",
+            "denoise-values": "denoise-off,denoise-on",
+            "denoise": "denoise-on",
+            "dis-values": "enable,disable",
+            "dis": "disable",
+            "dual_mode": "0",
+            "dualrecording-hint": "0",
+            "effect-values": "none,mono,negative,solarize,sepia,posterize,whiteboard,blackboard,aqua,vintage-cold,point-blue,point-red-yellow,emboss,sketch,neon,beauty",
+            "effect": "none",
+            "exposure-compensation-step": "0.1",
+            "exposure-compensation": "0",
+            "face-detection-values": "off,on",
+            "face-detection": "off",
+            "face-recognition-values": "off,on",
+            "face-recognition": "off",
+            "fast-fps-mode": "0",
+            "firmware-mode": "none",
+            "flash-mode-values": "off,auto,on,torch",
+            "flash-mode": "off",
+            "flip-mode-values": "off,flip-v,flip-h,flip-vh",
+            "fnumber-value-denominator": "100",
+            "fnumber-value-numerator": "190",
+            "focal-length": "3.70",
+            "focallength-35mm-value": "28",
+            "focallength-value-denominator": "100",
+            "focallength-value-numerator": "370",
+            "focus-areas": "(0,0,0,0,0)",
+            "focus-distances": "0.10,1.20,Infinity",
+            "focus-mode-values": "auto,infinity,macro,continuous-video,continuous-picture",
+            "focus-mode": "auto",
+            "hfr-size-values": "2072x1166,1052x780,1024x576",
+            "histogram-values": "enable,disable",
+            "histogram": "disable",
+            "horizontal-view-angle": "62",
+            "intelligent-mode": "0",
+            "iso-values": "auto,ISO_HJR,100,200,400,800,1600",
+            "iso": "auto",
+            "jpeg-quality": "96",
+            "jpeg-thumbnail-height": "288",
+            "jpeg-thumbnail-quality": "96",
+            "jpeg-thumbnail-size-values": "512x288,480x288,256x154,432x288,512x384,352x288,320x240,176x144,160x160,0x0",
+            "jpeg-thumbnail-width": "512",
+            "lensshade-values": "enable,disable",
+            "lensshade": "enable",
+            "llv_mode": "0",
+            "luma-adaptation": "3",
+            "max-brightness": "6",
+            "max-contrast": "10",
+            "max-exposure-compensation": "20",
+            "max-num-detected-faces-hw": "2",
+            "max-num-detected-faces-sw": "2",
+            "max-num-focus-areas": "1",
+            "max-num-metering-areas": "0",
+            "max-saturation": "10",
+            "max-sce-factor": "100",
+            "max-sharpness": "36",
+            "max-zoom": "100",
+            "maxaperture-value-denominator": "100",
+            "maxaperture-value-numerator": "185",
+            "mce-values": "enable,disable",
+            "mce": "enable",
+            "metering": "center",
+            "min-brightness": "0",
+            "min-contrast": "0",
+            "min-exposure-compensation": "-20",
+            "min-saturation": "0",
+            "min-sce-factor": "-100",
+            "min-sharpness": "0",
+            "num-snaps-per-shutter": "1",
+            "picture-format-values": "jpeg,bayer-qcom-10gbrg,bayer-qcom-10grbg,bayer-qcom-10rggb,bayer-qcom-10bggr,bayer-mipi-10gbrg,bayer-mipi-10grbg,bayer-mipi-10rggb,bayer-mipi-10bggr,yuv422sp,bayer-ideal-qcom-10grbg",
+            "picture-format": "jpeg",
+            "picture-size-values": "4128x3096,4128x2322,3264x2448,3264x1836,2560x1920,2048x1536,2048x1152,1920x1080,1280x960,1280x720,640x480",
+            "picture-size": "4128x3096",
+            "preferred-preview-size-for-video": "1920x1080",
+            "preview-flip": "off",
+            "preview-format-values": "yuv420sp,yuv420p",
+            "preview-format": "yuv420sp",
+            "preview-fps-range-values": "(5790,120550)",
+            "preview-fps-range": "5790,120550",
+            "preview-frame-rate-values": "15,30",
+            "preview-frame-rate": "30",
+            "preview-size-values": "1920x1080,1440x1080,1280x720,1056x864,960x720,880x720,800x480,720x480,640x480,528x432,352x288,320x240,176x144",
+            "preview-size": "1280x720",
+            "qc-camera-features": "542",
+            "qc-max-num-requested-faces": "2",
+            "raw-size": "4128x3096",
+            "redeye-reduction-values": "enable,disable",
+            "redeye-reduction": "disable",
+            "saturation-step": "1",
+            "saturation": "5",
+            "sce-factor-step": "10",
+            "scene-detect-values": "off,on",
+            "scene-detect": "off",
+            "selectable-zone-af-values": "",
+            "selectable-zone-af": "auto",
+            "sharpness-step": "6",
+            "sharpness": "36",
+            "shot-mode": "0",
+            "skinToneEnhancement-values": "enable,disable",
+            "skinToneEnhancement": "0",
+            "smart-screen-exposure-values": "vision-ae-normal,vision-ac-backlight",
+            "smart-screen-exposure": "0",
+            "smooth-zoom-supported": "false",
+            "snapshot-picture-flip": "off",
+            "supported-live-snapshot-sizes": "4128x3096,4128x2322,4000x3000,3264x2448,3264x1836,3200x2400,2592x1944,2576x1932,2560x1440,2048x1536,2048x1152,1920x1080,1600x1200,1440x1080,1280x768,1280x720,1024x768,800x600,800x480,800x450,720x480,640x480,352x288,320x240",
+            "supported-shot-modes": "normal-shot,panorama-burst",
+            "touch-af-aec-values": "touch-off,touch-on",
+            "touch-af-aec": "touch-off",
+            "vertical-view-angle": "49",
+            "video-flip": "off",
+            "video-frame-format": "yuv420sp",
+            "video-hfr-values": "60,90,120",
+            "video-hfr": "off",
+            "video-size-values": "1920x1080,1440x1080,1280x720,800x450,720x480,640x480,352x288,320x240,176x144",
+            "video-size": "1920x1080",
+            "video-snapshot-supported": "false",
+            "video-stabilization-supported": "false",
+            "vtmode": "0",
+            "whitebalance-values": "auto,incandescent,fluorescent,warm-fluorescent,daylight,cloudy-daylight,twilight,shade",
+            "whitebalance": "auto",
+            "zoom-ratios": "100,102,105,108,111,114,117,120,123,126,129,132,135,138,141,144,147,150,153,156,159,162,165,168,171,175,178,181,184,187,190,193,196,199,202,205,208,211,214,217,220,223,226,229,232,235,238,241,244,247,250,253,256,259,262,265,269,272,275,278,281,284,287,290,293,296,299,302,305,308,311,314,317,320,323,326,329,332,335,338,341,344,347,350,353,356,359,363,366,369,372,375,378,381,384,387,390,393,396,399,402",
+            "zoom-supported": "true",
+            "zoom": "0",
+            "zsl-values": "off,on",
+            "zsl": "off"
+        },
+        "1/2Front": {
+            "ae-bracket-hdr-values": "Off,AE-Bracket",
+            "ae-bracket-hdr": "Off",
+            "anti-shake": "0",
+            "antibanding-values": "off,60hz,50hz,auto",
+            "antibanding": "50hz",
+            "auto-exposure-lock-supported": "true",
+            "auto-exposure-lock": "false",
+            "auto-exposure-values": "matrix,center,spot",
+            "auto-whitebalance-lock-supported": "true",
+            "auto-whitebalance-lock": "false",
+            "brightness-step": "1",
+            "camera-mode": "0",
+            "constant-growth-rate-zoom-supported": "true",
+            "contrast-step": "1",
+            "contrast": "5",
+            "denoise-values": "denoise-off,denoise-on",
+            "denoise": "denoise-on",
+            "dis-values": "enable,disable",
+            "dis": "disable",
+            "dual_mode": "0",
+            "dualrecording-hint": "0",
+            "effect-values": "none,mono,negative,solarize,sepia,posterize,whiteboard,blackboard,aqua,vintage-cold,point-blue,point-red-yellow,emboss,sketch,neon,beauty",
+            "effect": "none",
+            "exposure-compensation-step": "0.1",
+            "exposure-compensation": "0",
+            "face-detection-values": "off,on",
+            "face-detection": "off",
+            "face-recognition-values": "off,on",
+            "face-recognition": "off",
+            "fast-fps-mode": "0",
+            "firmware-mode": "none",
+            "flash-mode-values": "off,auto,on,torch",
+            "flash-mode": "off",
+            "flip-mode-values": "off,flip-v,flip-h,flip-vh",
+            "fnumber-value-denominator": "100",
+            "fnumber-value-numerator": "220",
+            "focal-length": "1.92",
+            "focallength-35mm-value": "23",
+            "focallength-value-denominator": "100",
+            "focallength-value-numerator": "192",
+            "focus-distances": "0.10,0.90,Infinity",
+            "focus-mode-values": "fixed",
+            "focus-mode": "fixed",
+            "hfr-size-values": "",
+            "histogram-values": "enable,disable",
+            "histogram": "disable",
+            "horizontal-view-angle": "72.34",
+            "intelligent-mode": "0",
+            "iso-values": "auto,ISO_HJR,100,200,400,800,1600",
+            "iso": "auto",
+            "jpeg-quality": "96",
+            "jpeg-thumbnail-height": "288",
+            "jpeg-thumbnail-quality": "96",
+            "jpeg-thumbnail-size-values": "512x288,480x288,256x154,432x288,512x384,352x288,320x240,176x144,160x160,0x0",
+            "jpeg-thumbnail-width": "512",
+            "lensshade-values": "enable,disable",
+            "lensshade": "enable",
+            "llv_mode": "0",
+            "luma-adaptation": "3",
+            "max-brightness": "6",
+            "max-contrast": "10",
+            "max-exposure-compensation": "20",
+            "max-num-detected-faces-hw": "2",
+            "max-num-detected-faces-sw": "2",
+            "max-num-focus-areas": "0",
+            "max-num-metering-areas": "0",
+            "max-saturation": "10",
+            "max-sce-factor": "100",
+            "max-sharpness": "36",
+            "max-zoom": "100",
+            "maxaperture-value-denominator": "100",
+            "maxaperture-value-numerator": "228",
+            "mce-values": "enable,disable",
+            "mce": "enable",
+            "metering": "center",
+            "min-brightness": "0",
+            "min-contrast": "0",
+            "min-exposure-compensation": "-20",
+            "min-saturation": "0",
+            "min-sce-factor": "-100",
+            "min-sharpness": "0",
+            "num-snaps-per-shutter": "1",
+            "picture-format-values": "jpeg,bayer-qcom-10gbrg,bayer-qcom-10grbg,bayer-qcom-10rggb,bayer-qcom-10bggr,bayer-mipi-10gbrg,bayer-mipi-10grbg,bayer-mipi-10rggb,bayer-mipi-10bggr,yuv422sp,bayer-ideal-qcom-10grbg",
+            "picture-format": "jpeg",
+            "picture-size-values": "2576x1932,2560x1920,1920x1920,2560x1440,2048x1536,2048x1152,1920x1080,1440x1080,1280x960,1280x720,1072x1072,1024x768,960x720,720x480,640x480,320x240",
+            "picture-size": "2576x1932",
+            "preferred-preview-size-for-video": "1920x1080",
+            "preview-flip": "off",
+            "preview-format-values": "yuv420sp,yuv420p",
+            "preview-format": "yuv420sp",
+            "preview-fps-range-values": "(7000,30000)",
+            "preview-fps-range": "7000,30000",
+            "preview-frame-rate-values": "15,30",
+            "preview-frame-rate": "30",
+            "preview-size-values": "1920x1080,1440x1080,1280x720,1056x864,960x720,960x540,880x720,720x720,720x540,720x480,640x480,352x288,320x240,176x144",
+            "preview-size": "1280x720",
+            "qc-camera-features": "542",
+            "qc-max-num-requested-faces": "2",
+            "raw-size": "2576x1932",
+            "redeye-reduction-values": "enable,disable",
+            "redeye-reduction": "disable",
+            "saturation-step": "1",
+            "saturation": "5",
+            "sce-factor-step": "10",
+            "scene-detect-values": "off,on",
+            "scene-detect": "off",
+            "selectable-zone-af-values": "",
+            "selectable-zone-af": "auto",
+            "sharpness-step": "6",
+            "sharpness": "36",
+            "shot-mode": "0",
+            "skinToneEnhancement-values": "enable,disable",
+            "skinToneEnhancement": "0",
+            "smart-screen-exposure-values": "vision-ae-normal,vision-ac-backlight",
+            "smart-screen-exposure": "0",
+            "smooth-zoom-supported": "false",
+            "snapshot-picture-flip": "off",
+            "supported-live-snapshot-sizes": "2576x1932,2560x1440,2048x1536,2048x1152,1920x1080,1600x1200,1440x1080,1280x768,1280x720,1024x768,800x600,800x480,800x450,720x480,640x480,352x288,320x240",
+            "supported-shot-modes": "normal-shot,panorama-burst",
+            "touch-af-aec-values": "touch-off,touch-on",
+            "touch-af-aec": "touch-off",
+            "vertical-view-angle": "57.2",
+            "video-flip": "off",
+            "video-frame-format": "yuv420sp",
+            "video-hfr-values": "",
+            "video-hfr": "off",
+            "video-size-values": "1920x1080,1440x1080,1280x720,960x720,800x450,720x480,640x480,352x288,320x240,176x144",
+            "video-size": "1920x1080",
+            "video-snapshot-supported": "false",
+            "video-stabilization-supported": "false",
+            "vtmode": "0",
+            "whitebalance-values": "auto,incandescent,fluorescent,warm-fluorescent,daylight,cloudy-daylight,twilight,shade",
+            "whitebalance": "auto",
+            "zoom-ratios": "100,102,105,108,111,114,117,120,123,126,129,132,135,138,141,144,147,150,153,156,159,162,165,168,171,175,178,181,184,187,190,193,196,199,202,205,208,211,214,217,220,223,226,229,232,235,238,241,244,247,250,253,256,259,262,265,269,272,275,278,281,284,287,290,293,296,299,302,305,308,311,314,317,320,323,326,329,332,335,338,341,344,347,350,353,356,359,363,366,369,372,375,378,381,384,387,390,393,396,399,402",
+            "zoom-supported": "true",
+            "zoom": "0",
+            "zsl-values": "off,on",
+            "zsl": "off"
+        }
+    },
+    "#CAMERA2API=": {
+        "0=back<LEGACY>4128x3096(null)": {
+            "MAIN_specs": "+ BACKWARD_COMPATIBLE",
+            "FPS_ranges": "[5790, 120550]",
+            "Focal_lenghts": "3.7",
+            "AE_modes": "+ ON+ ON_AUTO_FLASH+ ON_ALWAYS_FLASH",
+            "AF_modes": "+ AUTO+ OFF+ MACRO+ CONTINUOUS_VIDEO+ CONTINUOUS_PICTURE",
+            "AWB_modes": "+ AUTO+ INCANDESCENT+ FLUORESCENT+ WARM_FLUORESCENT+ DAYLIGHT+ CLOUDY_DAYLIGHT+ TWILIGHT+ SHADE",
+            "android.control.aeCompensationRange": "[-20, 20]",
+            "android.control.aeCompensationStep": "1/10",
+            "android.control.maxRegionsAe": "0",
+            "android.control.maxRegionsAf": "1",
+            "android.control.maxRegionsAwb": "0",
+            "android.flash.info.available": "true",
+            "android.info.supportedHardwareLevel": "2",
+            "android.lens.facing": "1",
+            "android.request.maxNumOutputProc": "3",
+            "android.request.maxNumOutputProcStalling": "1",
+            "android.request.maxNumOutputRaw": "0",
+            "android.request.partialResultCount": "1",
+            "android.request.pipelineMaxDepth": "6",
+            "android.scaler.availableMaxDigitalZoom": "4.02",
+            "android.scaler.croppingType": "0",
+            "android.scaler.streamConfigurationMap": "android.hardware.camera2.params.StreamConfigurationMap@78c02040",
+            "android.sensor.info.activeArraySize": "Rect(0, 0 - 4128, 3096)",
+            "android.sensor.info.physicalSize": "4.4463687x3.3723743",
+            "android.sensor.info.pixelArraySize": "4128x3096",
+            "android.sensor.info.timestampSource": "0",
+            "android.sensor.orientation": "90",
+            "android.statistics.info.maxFaceCount": "2",
+            "android.sync.maxLatency": "-1",
+            "UNSOLVEDs": "/android colorCorrection availableAberrationModes/android control aeAvailableAntibandingModes/android control aeAvailableModes/android control aeAvailableTargetFpsRanges/android control afAvailableModes/android control availableEffects/android control availableSceneModes/android control availableVideoStabilizationModes/android control awbAvailableModes/android jpeg availableThumbnailSizes/android lens info availableFocalLengths/android noiseReduction availableNoiseReductionModes/android request availableCapabilities/android sensor availableTestPatternModes/android statistics info availableFaceDetectModes"
+        },
+        "1=front<LEGACY>2576x1932(null)": {
+            "MAIN_specs": "+ BACKWARD_COMPATIBLE",
+            "FPS_ranges": "[7000, 30000]",
+            "Focal_lenghts": "1.92",
+            "AE_modes": "+ ON+ ON_AUTO_FLASH+ ON_ALWAYS_FLASH",
+            "AF_modes": "+ OFF",
+            "AWB_modes": "+ AUTO+ INCANDESCENT+ FLUORESCENT+ WARM_FLUORESCENT+ DAYLIGHT+ CLOUDY_DAYLIGHT+ TWILIGHT+ SHADE",
+            "android.control.aeCompensationRange": "[-20, 20]",
+            "android.control.aeCompensationStep": "1/10",
+            "android.control.maxRegionsAe": "0",
+            "android.control.maxRegionsAf": "0",
+            "android.control.maxRegionsAwb": "0",
+            "android.flash.info.available": "true",
+            "android.info.supportedHardwareLevel": "2",
+            "android.lens.facing": "0",
+            "android.lens.info.minimumFocusDistance": "0.0",
+            "android.request.maxNumOutputProc": "3",
+            "android.request.maxNumOutputProcStalling": "1",
+            "android.request.maxNumOutputRaw": "0",
+            "android.request.partialResultCount": "1",
+            "android.request.pipelineMaxDepth": "6",
+            "android.scaler.availableMaxDigitalZoom": "4.02",
+            "android.scaler.croppingType": "0",
+            "android.scaler.streamConfigurationMap": "android.hardware.camera2.params.StreamConfigurationMap@20d48938",
+            "android.sensor.info.activeArraySize": "Rect(0, 0 - 2576, 1932)",
+            "android.sensor.info.physicalSize": "2.8073685x2.093636",
+            "android.sensor.info.pixelArraySize": "2576x1932",
+            "android.sensor.info.timestampSource": "0",
+            "android.sensor.orientation": "270",
+            "android.statistics.info.maxFaceCount": "2",
+            "android.sync.maxLatency": "-1",
+            "UNSOLVEDs": "/android colorCorrection availableAberrationModes/android control aeAvailableAntibandingModes/android control aeAvailableModes/android control aeAvailableTargetFpsRanges/android control afAvailableModes/android control availableEffects/android control availableSceneModes/android control availableVideoStabilizationModes/android control awbAvailableModes/android jpeg availableThumbnailSizes/android lens info availableFocalLengths/android noiseReduction availableNoiseReductionModes/android request availableCapabilities/android sensor availableTestPatternModes/android statistics info availableFaceDetectModes"
+        },
+        "nbrCamsAPI2": 2
+    },
+    "#LIBS&FEATURES=": {
+        "SystemSharedLibraryNames": " / allshare / android test runner / com android future usb accessory / com android location provider / com android media remotedisplay / com android mediadrm signer / com android nfc_extras / com broadcom bt / com broadcom nfc / com dsi ant antradio_library / com google widevine software drm / com gsma services nfc / com qti ims connectionmanager imscmlibrary / com samsung bbc / com samsung device / com sec android mdm / com sec smartcard auth / imsmanager / imsmanager-internal / javax btobex / javax obex / libvtmanagerjar / msgwrapper / org simalliance openmobileapi / rcsopenapi / saiv / sec_platform_library / seccamera / secimaging / secmediarecorder / secvision / secvisualeffect / sws / touchwiz",
+        "Features": "/ android hardware audio output/ android hardware bluetooth/ android hardware bluetooth_le/ android hardware camera/ android hardware camera any/ android hardware camera autofocus/ android hardware camera flash/ android hardware camera front/ android hardware faketouch/ android hardware location/ android hardware location gps/ android hardware location network/ android hardware microphone/ android hardware nfc/ android hardware nfc hce/ android hardware screen landscape/ android hardware screen portrait/ android hardware sensor accelerometer/ android hardware sensor proximity/ android hardware telephony/ android hardware telephony gsm/ android hardware touchscreen/ android hardware touchscreen multitouch/ android hardware touchscreen multitouch distinct/ android hardware touchscreen multitouch jazzhand/ android hardware usb accessory/ android hardware usb host/ android hardware wifi/ android hardware wifi direct/ android software app_widgets/ android software backup/ android software connectionservice/ android software device_admin/ android software home_screen/ android software input_methods/ android software live_wallpaper/ android software print/ android software sip/ android software sip voip/ android software voice_recognizers/ android software webview/ com nxp mifare/ com sec android mdm/ com sec feature cover flip/ com sec feature wfd_support"
+    },
+    "#SERVICES&SVC=": {
+        "dumpsys-l": "/  ABTPersistenceService/  CCM/  CustomFrequencyManagerService/  DirEncryptService/  DockObserver/  FMPlayer/  OTP/  ReactiveService/  SEAMService/  SatsService/  SurfaceFlinger/  TUI/  accessibility/  account/  activity/  alarm/  android security keystore/  apn_settings_policy/  application_policy/  appops/  apppermission_control_policy/  appwidget/  audio/  auditlog/  backup/  battery/  batteryproperties/  batterystats/  bluetooth_manager/  bluetooth_policy/  bluetooth_secure_mode_manager/  bluetooth_secure_mode_policy/  browser_policy/  cepproxyks/  certificate_policy/  clinfo/  clipboard/  com broadcom nfc Factory/  commontime_management/  connectivity/  consumer_ir/  content/  country_detector/  cover/  cpuinfo/  date_time_policy/  dbinfo/  device_account_policy/  device_info/  device_policy/  devicestoragemonitor/  diskstats/  display/  display qservice/  dreams/  drm drmManager/  dropbox/  dualsim_policy/  eas_account_policy/  edm_proxy/  edmnativehelper/  email_account_policy/  email_policy/  emailksproxy/  emergency_service/  enterprise_billing_policy/  enterprise_license_policy/  enterprise_policy/  enterprise_premium_vpn_policy/  enterprise_sso_policy/  enterprise_user_space_sso_policy/  enterprise_vpn_policy/  entropy/  fingerprint/  firewall_policy/  genericssoservice/  geofencing/  gfxinfo/  handset/  hardware/  harmony_eas_service/  imms/  injection/  input/  input_method/  iphonesubinfo/  isms/  isub/  jobscheduler/  kioskmode/  knox_ccm_policy/  knox_scep_policy/  knox_timakeystore_policy/  knox_vpn_policy/  knoxcustom/  launcherapps/  ldap_account_policy/  license_log_service/  location/  location_policy/  lock_settings/  lockscreen_overlay/  log_manager_service/  lpnet/  mDNIe/  mdm remotedesktop/  media audio_flinger/  media audio_policy/  media camera/  media player/  media sound_trigger_hw/  media_projection/  media_router/  media_session/  meminfo/  misc_policy/  mount/  multi_user_manager_service/  mum_container_policy/  mum_container_rcp_policy/  netpolicy/  netstats/  network_management/  network_score/  nfc/  nfccontroller/  notification/  offhostservice/  otp_service/  package/  password_policy/  permission/  persona/  persona_policy/  phone/  phone_restriction_policy/  power/  print/  procstats/  rcp/  remoteinjection/  restriction_policy/  restrictions/  roaming_policy/  rttmanager/  samplingprofiler/  scheduling_policy/  sdp/  search/  secontroller/  security_policy/  sedenial/  sensorservice/  serial/  servicediscovery/  simphonebook/  sip/  smartcard_access_policy/  smartcard_browser_policy/  smartcard_email_policy/  smartcard_lockscreen_policy/  smartcard_vpn_policy/  statusbar/  telecom/  telephony registry/  textservices/  tima/  trust/  uimode/  updatelock/  usagestats/  usb/  user/  vibrator/  voiceinteraction/  voip/  vpn_policy/  wallpaper/  webviewupdate/  wifi/  wifi_policy/  wifip2p/  wifiscanner/  window",
+        "InitSVC": " /BCS-daemon /DR-daemon /SMD-daemon /at_distributor /atfwd■ /audiod /auditd /bms-sh■ /bootanim■ /bootchecker■ /ccm /config-zram■ /config_bluetooth■ /cs_service /debuggerd /dhcpcd_wlan0 /diag_uart_log /drm /drsd /edmaudit /flash_recovery■ /hciattach■ /healthd /icd■ /imsdatadaemon]: restarting] /imsqmidaemon /installd /insthk■ /irsc_util■ /kap_disable■ /keystore /knox■ /lmkd /loc_launcher /logd /macloader■ /mcStarter■ /media /mobex-daemon /netd /netmgrd■ /otp /p2p_supplicant /perfd /powersnd■ /prepare_param■ /qcamerasvr /qcom-c_core-sh■ /qcom-c_main-sh■ /qcom-debug■ /qcom-post-boot■ /qcom-sh■ /qcom-usb-sh■ /qmuxd /qseecomd /rfs_access /ril-daemon2 /ril-daemon]: stopping] /rmt_storage /run-mobicore /scs■ /sdcard■ /sdp_cryptod /sec-sh■ /servicemanager /surfaceflinger /swapon■ /thermal-engine /time_daemon /tui /ueventd /umount_service■ /usb_uicc_daemon■ /usb_uicc_enable■ /vold /wcnss-service /zygote"
+    },
+    "#ROOT?=": {
+        "existingFiles": []
+    },
+    "#MOUNTS": {
+        "■/data/knox/sdcard": {
+            "/mnt/shell/knox-emulated": "sdcardfs rw,seclabel,nosuid,nodev,relatime,uid=1000,gid=1000,derive=none 0 0"
+        },
+        "■/data/media": {
+            "/mnt/shell/emulated": "sdcardfs rw,seclabel,nosuid,nodev,relatime,uid=1023,gid=1023,derive=legacy,reserved=20MB 0 0",
+            "/storage/emulated/0": "sdcardfs rw,seclabel,nosuid,nodev,relatime,uid=1023,gid=1023,derive=legacy,reserved=20MB 0 0",
+            "/storage/emulated/legacy": "sdcardfs rw,seclabel,nosuid,nodev,relatime,uid=1023,gid=1023,derive=legacy,reserved=20MB 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/apnhlos": {
+            "/firmware": "vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/cache": {
+            "/cache": "ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/efs": {
+            "/efs": "ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/modem": {
+            "/firmware-modem": "vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/persdata": {
+            "/persdata/absolute": "ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/persist": {
+            "/persist": "ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/system": {
+            "/system": "ext4 ro,seclabel,relatime,norecovery 0 0"
+        },
+        "■/dev/block/bootdevice/by-name/userdata": {
+            "/data": "ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0"
+        },
+        "■adb": {
+            "/dev/usb-ffs/adb": "functionfs rw,relatime 0 0"
+        },
+        "■debugfs": {
+            "/sys/kernel/debug": "debugfs rw,relatime 0 0"
+        },
+        "■devpts": {
+            "/dev/pts": "devpts rw,seclabel,relatime,mode=600 0 0"
+        },
+        "■none": {
+            "/acct": "cgroup rw,relatime,cpuacct 0 0",
+            "/dev/cpuctl": "cgroup rw,relatime,cpu 0 0",
+            "/sys/fs/cgroup": "tmpfs rw,seclabel,relatime,size=700740k,nr_inodes=128930,mode=750,gid=1000 0 0"
+        },
+        "■proc": {
+            "/proc": "proc rw,relatime 0 0"
+        },
+        "■rootfs": {
+            "/": "rootfs ro,relatime 0 0"
+        },
+        "■selinuxfs": {
+            "/sys/fs/selinux": "selinuxfs rw,relatime 0 0"
+        },
+        "■sysfs": {
+            "/sys": "sysfs rw,seclabel,relatime 0 0"
+        }
+    },
+    "#SENSORS=": {
+        "TOTAL": 3,
+        "1_android.sensor.accelerometer": {
+            "STM": {
+                "K2HH Acceleration _1": {
+                    "Vendor": "STM",
+                    "Version": 1,
+                    "StringType": "android.sensor.accelerometer",
+                    "Type": 1,
+                    "mA": 0.12999999523162842,
+                    "ReportingMode": 0,
+                    "isWakeUpSensor": false,
+                    "Resolution": 0.038307227194309235,
+                    "MaximumRange": 19.613300323486328,
+                    "MinDelay": 10000,
+                    "MaxDelay": 200000,
+                    "FifoMaxEventCount": 0,
+                    "FifoReservedEventCount": 0
+                }
+            }
+        },
+        "8_android.sensor.proximity": {
+            "SHARP": {
+                "GP2A002 Proximity Sensor_8": {
+                    "Vendor": "SHARP",
+                    "Version": 1,
+                    "StringType": "android.sensor.proximity",
+                    "Type": 8,
+                    "mA": 0,
+                    "ReportingMode": 1,
+                    "isWakeUpSensor": true,
+                    "Resolution": 0,
+                    "MaximumRange": 5,
+                    "MinDelay": 0,
+                    "MaxDelay": 0,
+                    "FifoMaxEventCount": 0,
+                    "FifoReservedEventCount": 0
+                }
+            }
+        },
+        "65558_": {
+            "Samsung Electronics": {
+                "Screen Orientation Sensor_65558": {
+                    "Vendor": "Samsung Electronics",
+                    "Version": 1,
+                    "StringType": "",
+                    "Type": 65558,
+                    "mA": 0.12999999523162842,
+                    "ReportingMode": 1,
+                    "isWakeUpSensor": false,
+                    "Resolution": 0,
+                    "MaximumRange": 255,
+                    "MinDelay": 0,
+                    "MaxDelay": 0,
+                    "FifoMaxEventCount": 0,
+                    "FifoReservedEventCount": 0
+                }
+            }
+        }
+    }
+}

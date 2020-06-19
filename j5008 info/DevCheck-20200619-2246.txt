@@ -1,0 +1,81 @@
+DevCheck Report
+
+samsung
+SM-J5008
+
+6月 19, 2020 10:46
+运行时间: 26m 58s
+深度休眠: 0s (0%)
+
+硬件
+Qualcomm® Snapdragon™ 410
+硬件: MSM8916
+核心数: 4
+CPU:
+Cortex-A53
+工艺: 28 nm
+频率: 200 MHz - 1190 MHz
+调频器: interactive
+
+图像
+供应商: Qualcomm
+GPU: Adreno (TM) 306
+OpenGL: OpenGL ES 3.0 V@100.0 AU@05.01.00.032.018 (GIT@I856e09677e)
+最高频率: 400 MHz
+分辨率: 1280 x 720
+屏幕密度: 304.05896 ppi
+屏幕尺寸: 4.83 in / 123 mm
+面板: ss_dsi_panel_S6D7AA0X62_BV050HDM_HD
+
+内存
+容量: 1.5 GB
+类型: LPDDR3 533 MHz
+带宽: 4.2 GB/s
+通道: 32-bit single channel
+
+其它 硬件
+蓝牙支持: 是
+低功耗蓝牙支持: 是
+USB Host支持: 是
+红外线传感器: 否
+NFC支持: 是
+
+设备
+型号: SM-J5008
+代号: j5ltechn
+制造商: samsung
+出厂日期: 7月 7, 2015
+序列号: 25ba57d8
+Samsung 序列号: RV8G704QALT
+
+系统
+Android版本: 5.1 (Lollipop)
+版本号: LMY47O.J5008ZMS1ARG1
+基于 ROM: J5008ZMS1ARG1
+架构: armv7l (32-bit)
+指令集架构: armeabi-v7a armeabi
+内核: 3.10.49-1224079 #1
+dpi@21HH1F22
+gcc version 4.8 (GCC) 
+Thu Jul 12 15:41:45 KST 2018
+
+电池
+技术: Li-ion
+健康情况: 良好
+容量（系统回报）: 2600 mAh
+
+网络
+MAC地址: E0:DB:10:F8:6C:57
+5GHz 频段支持: 否
+手机类型: GSM
+
+相机
+分辨率: 12.8 MP (4128x3096)
+焦距: 3.7 mm
+35mm等效焦距: 28.7 mm
+传感器尺寸: 4.45x3.37 mm
+裁切系数: 7.8x
+视野: 62.0°
+像素大小: 1.09 μm
+RAW模式: 支持
+前置相机: 5.0 MP (2576x1932)
