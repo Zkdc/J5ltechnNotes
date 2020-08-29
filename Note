@@ -1,2 +1,3 @@
 1.只有使用 warm_reset 时候设备才会正常完成重起，另外如果在 msm-poweroff.c 中使用 qpnp_pon_set_restart_reason 的高通的重启策略似乎会导致一些严重的重启问题（应该是某些restart_reason和下方设置不完全一样所致）。
 2.在rec中关机下次开机还是会进rec，原厂recovery也是这样。
+3.其实就重启方式来说高通的和三星的差距不大，只是选项多少的问题。另外这个设备大多数重起情况下需要warm_reset。
